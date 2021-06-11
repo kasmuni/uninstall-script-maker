@@ -16,3 +16,5 @@
 * User interface addition
 * Convert program to EXE so it doesnt require python installation
 * Bring out the command concatenations to be read from external text files instead of hardcoded
+* Add logging
+* Add comments in code
