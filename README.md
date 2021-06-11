@@ -18,3 +18,4 @@
 * Bring out the command concatenations to be read from external text files instead of hardcoded
 * Add logging
 * Add comments in code
+* Generate .bat file instead of .txt
