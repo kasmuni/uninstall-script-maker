@@ -33,6 +33,3 @@ def gen_scriptfile(fullcommand):
     with open("../scriptoutput/uninstallscript.txt", "w") as f:
         f.write(fullcommand)
 
-fullcommand = "wmic product 'where description='Microsoft Windows v7.6.103.1' uninstall && wmic product 'where description=' Microsoft Office v7.6.103.1' uninstall && wmic product 'where description=' Microsoft Excel v7.6.103.1' uninstall"
-gen_scriptfile(fullcommand)
-
