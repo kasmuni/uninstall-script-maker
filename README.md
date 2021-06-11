@@ -2,7 +2,7 @@
 
 * This program generates uninstallation scripts for windows command line
 
-* It intakes the application list through modifiable csv
+* It intakes the application list through modifiable csv in the data folder called "appnames.csv"
 
 * It intakes a common version to append to all these installer files
 
@@ -15,3 +15,4 @@
 * delete any current uninstall scripts and always create new file
 * User interface addition
 * Convert program to EXE so it doesnt require python installation
+* Bring out the command concatenations to be read from external text files instead of hardcoded
